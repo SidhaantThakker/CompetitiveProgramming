@@ -5,12 +5,21 @@ using ll = long long;
 using vi = vector<ll>;
 
 void solve(){
-    
+    int x;
+    int sunny=0;
+    fi(7){
+        cin>>x;
+        if(x==1)
+            sunny++;
+    }
+    if(sunny>=4)
+        cout<<"YES";
+    else
+        cout<<"NO";
+    cout<<endl;
 }
 
 int main(){
-    ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
     int t;
     cin>>t;
     while(t--){
