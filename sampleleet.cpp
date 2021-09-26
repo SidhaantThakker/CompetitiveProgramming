@@ -10,3 +10,8 @@ public:
         
     }
 };
+
+int main(){
+    Solution ob;
+    
+}
